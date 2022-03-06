@@ -31,4 +31,6 @@ app.post('/RSA',(req,res)=>{
     }
 })
 
-app.listen(3000)
+app.listen(3000,()=>{
+    console.log("App listening in port 3000")
+})
