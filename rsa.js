@@ -7,7 +7,7 @@ class RSA {
     
     while (true) {
       let p = bigInt.randBetween(min, max);
-      if (p.isProbablePrime(256)) {
+      if (p.isProbablePrime(1024)) {
         return p;
       } 
     }
